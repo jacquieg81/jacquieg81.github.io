@@ -21,5 +21,10 @@ const nextConfig = {
 	}
 };
 
-module.exports = nextConfig;
+module.exports = {
+	output: 'export',
+	basePath: '/jacquieg81.github.io',
+	trailingSlash: true,
+  }
+  
 
