@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, FileDown } from 'lucide-react';
@@ -47,19 +48,25 @@ export function HeroSection() {
 			<div ref={vantaRef} className="absolute inset-0 z-0 opacity-60" />
 
 			{/* Content */}
-			<div className="container relative z-10 px-4 py-20 md:py-32 flex flex-col items-center justify-center min-h-[90vh]">
+			<div className="container relative z-10 px-4 py-10 md:py-16 flex flex-col items-center justify-center min-h-[60vh]">
 				<motion.div
 					variants={staggerContainer()}
 					initial="hidden"
 					animate="show"
 					className="max-w-3xl mx-auto text-center"
 				>
-					<motion.h2
-						variants={fadeIn('up', 0.2)}
-						className="text-3xl md:text-4xl font-bold mb-4 text-primary"
+					<motion.div
+					variants={fadeIn('up', 0.2)}
+					className="mb-4 flex justify-center"
 					>
-						Computer Science Engineering
-					</motion.h2>
+					<Image
+						src="/image.png"
+						alt="Profile"
+						width={150}
+						height={150}
+						className="rounded-full object-cover object-center"
+					/>
+					</motion.div>
 
 					<motion.h1
 						variants={fadeIn('up', 0.3)}
