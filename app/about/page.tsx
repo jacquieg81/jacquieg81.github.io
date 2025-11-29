@@ -28,7 +28,7 @@ export default function AboutPage() {
 						<div className="space-y-4">
 							<h2 className="text-2xl font-semibold">My Journey</h2>
 							<p className="text-muted-foreground">
-								Throughout my academic career, I've been involved in various projects that have
+								Throughout my academic career, Ive been involved in various projects that have
 								helped me develop practical skills and theoretical knowledge. I believe in
 								continuous learning and staying updated with the latest technological advancements.
 							</p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Education</h3>
 								<p className="text-muted-foreground">
-									Currently pursuing a Bachelor's degree in Engineering with a focus on
+									Currently pursuing a Bachelors degree in Engineering with a focus on
 									practical applications and innovative solutions.
 								</p>
 							</CardContent>
