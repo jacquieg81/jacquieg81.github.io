@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.NODE_ENV === 'production';
 const nextConfig = {
 	output: 'export',
+	basePath: isGithubPages ? '/jacquieg81.github.io' : '',
+  	assetPrefix: isGithubPages ? '/jacquieg81.github.io/' : '',
 	eslint: {
 		ignoreDuringBuilds: true,
 	},
@@ -19,3 +22,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
