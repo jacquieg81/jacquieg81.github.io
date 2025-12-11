@@ -1,5 +1,5 @@
 <div class="about-header">
-  <img src="assets/profile.jpg" alt="Portrait of J Rosser" class="about-avatar" width="160" height="160" loading="lazy" />
+  <img src="assets/Gronewegen,Jacquie.jpg" alt="Portrait of J Rosser" class="about-avatar" width="160" height="160" loading="lazy" />
   <div class="about-header-content">
     <h1 class="title">Hi I'm Jacquie!</h1>
     <div class="about-socials" style="display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap;margin-top:0.5rem;">
@@ -36,10 +36,8 @@
 
 
 
-I'm a DPhil student in Machine Learning at the University of Oxford, focusing on AI Safety, Interpretability, and Multi-Agent Systems.
+I'm an Accelerated (4+1) masters student at Queen's University, Canada studying Human-Robot Interaction. 
 
-Previously, I was a Research Scientist Intern at Spotify and worked with the UK AI Security Institute (AISI) on their Bounty Programme investigating automated design of agentic systems. I was also the founding Research Scientist at Convergence (acquired by Salesforce), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users, and held senior engineering roles at Pynea and Artera, leading teams and shipping ML innovations.
+While completing my undergrad in Computer Engineering I am starting my Master's research, beginning with using robots to render haptic proxies in Virtual Reality (VR). Over the summer of 2025, I worked as an undergraduate research student working on developing VR applications for our Beta system, integrating communication with the robot system to create haptics for interpersonal interactions in VR.
 
-I'm a member of LISA (London Initiative for Safe AI) and enjoy playing trumpet in a funk band, running bouldering socials, and helping new climbers get certified.
-
-P.S. There are some easter eggs on this website - find one and drop the emoji in your email subject line!
+I'm a member of the Queen's Rowing team and love working out to start my day and clear my mind for a productive day!
