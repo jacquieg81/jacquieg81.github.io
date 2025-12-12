@@ -3,7 +3,7 @@
 
 
 <div class="timeline">
-
+<!-- 
 <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
@@ -78,4 +78,4 @@
     </div>
     <div class="timeline-meta">First Class • Academic Scholarship</div>
   </div>
-</div>
+</div> -->

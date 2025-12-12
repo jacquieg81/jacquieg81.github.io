@@ -22,7 +22,7 @@
     </div>
 </div>
 
-<div class="publication-card">
+<!-- <div class="publication-card">
     <div class="publication-image">
         <img src="assets/stream_jpg.jpg" alt="Stream publication">
     </div>
@@ -60,4 +60,4 @@
             <a href="https://openreview.net/pdf?id=NJNr5KbW3m" class="tag tag-arxiv">ARXIV</a>
         </div>
     </div>
-</div>
+</div> -->
