@@ -1,4 +1,4 @@
-# Publications
+# Projects
 
 ## 2025
 
@@ -9,11 +9,10 @@
     <div class="publication-content">
         <h3 class="publication-title">
             <a href="/AgentBreeder" class="publication-link">
-                AgentBreeder: Mitigating the AI Safety Impact of Multi-Agent Scaffolds via Self-Improvement
+                ETHOS: A Robotic Encountered-Type Haptic Display for Social Interaction in Virtual Reality
             </a>
         </h3>
-        <div class="publication-venue">NeurIPS 2025 spotlight</div>
-        <div class="publication-authors">J Rosser, Jakob Foerster</div>
+        <div class="publication-authors">Developed haptic feedback for Virtual Reality (VR) using a KUKA lwii and end-effector props. My focus was on VR development and virtual-robot communication.</div>
         <div class="publication-year">2025</div>
         <div class="publication-tags">
             <span class="tag tag-safety">Multi-Agent Safety</span>
