@@ -40,4 +40,4 @@ I'm an Accelerated (4+1) masters student at Queen's University, Canada studying 
 
 While completing my undergrad in Computer Engineering I am starting my Master's research, beginning with using robots to render haptic proxies in Virtual Reality (VR). Over the summer of 2025, I worked as an undergraduate research student working on developing VR applications for our Beta system, integrating communication with the robot system to create haptics for interpersonal interactions in VR.
 
-I'm a member of the Queen's Rowing team and love working out to start my day and clear my mind for a productive day!
+I'm a member of the Queen's Rowing team and love working out in the mornings to clear my mind for a productive day!
