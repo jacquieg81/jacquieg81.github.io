@@ -20,61 +20,61 @@
 </head>
 
 <body class="bg-global-bg text-global-text antialiased">
+  
+    <!-- Fullscreen Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <img src="assets/me.jpg" alt="Portrait of Jacquie" class="hero-avatar" />
+        <h1 class="hero-name">Jacquie Groenewegen</h1>
+        <p class="hero-subtitle">Accelerated MASc Student at Queen’s University • HRI</p>
+  
+        <a class="hero-cta" href="#about">Scroll to explore ↓</a>
+      </div>
+    </section>
 
-    <!-- Fixed Header -->
+    <!-- Fixed Header (starts hidden) -->
     <header id="main-header" class="group">
         <div class="header-grid">
-
-            <!-- Logo -->
-            <a href="#" class="group header-logo flex items-center">
-                <img src="assets/logo.png" alt="Logo" class="me-3 h-10 sm:h-20" />
-            </a>
-
-            <!-- Title -->
-            <div class="header-title">
-                <span class="text-xl font-bold sm:text-2xl">Jacquie Groenewegen</span>
-            </div>
-
-            <!-- Desktop Navigation -->
-            <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-            </nav>
-
-            <!-- Controls (Theme toggle removed) -->
-            <div class="header-controls flex items-center gap-3">
-                <!-- Empty controls container (optional to remove entirely) -->
-            </div>
+          <a href="#" class="group header-logo flex items-center">
+            <img src="assets/logo.png" alt="Logo" class="me-3 h-10 sm:h-20" />
+          </a>
+    
+          <div class="header-title">
+            <span class="text-xl font-bold sm:text-2xl">Jacquie Groenewegen</span>
+          </div>
+    
+          <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+          </nav>
+    
+          <div class="header-controls flex items-center gap-3"></div>
         </div>
-    </header>
-
-    <!-- Main Content -->
+      </header>
+  
+    <!-- Main Content (no padding-top needed anymore) -->
     <main class="mx-auto max-w-3xl px-4 sm:px-8">
-
-        <!-- About Section -->
-        <section id="about" class="mb-16">
-            <div class="prose" id="about-content">
-                <div class="loading-spinner">Loading about content...</div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="mb-16">
-            <div class="prose" id="projects-content">
-                <div class="loading-spinner">Loading projects content...</div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="mb-16">
-            <div class="prose" id="education-content">
-                <div class="loading-spinner">Loading education content...</div>
-            </div>
-        </section>
-
+      <section id="about" class="mb-16">
+        <div class="prose" id="about-content">
+          <div class="loading-spinner">Loading about content...</div>
+        </div>
+      </section>
+  
+      <section id="projects" class="mb-16">
+        <div class="prose" id="projects-content">
+          <div class="loading-spinner">Loading projects content...</div>
+        </div>
+      </section>
+  
+      <section id="education" class="mb-16">
+        <div class="prose" id="education-content">
+          <div class="loading-spinner">Loading education content...</div>
+        </div>
+      </section>
     </main>
-
+  
     <script src="script.js"></script>
-</body>
+  </body>
+  
 </html>

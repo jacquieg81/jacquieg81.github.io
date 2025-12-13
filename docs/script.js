@@ -260,7 +260,7 @@ class LazyImageLoader {
 // Markdown content loader
 class MarkdownLoader {
     constructor() {
-        this.sections = ['about', 'news', 'projects', 'education'];
+        this.sections = ['about', 'projects', 'education'];
         this.init();
     }
 
@@ -476,35 +476,46 @@ class MarkdownLoader {
     });
 })();
 
-// Initialize all functionality when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize all components
+// Header reveal after scrolling past the hero
+class HeaderPin {
+    init() {
+      const header = document.getElementById("main-header");
+      const main = document.querySelector("main");
+      if (!header || !main) return;
+  
+      const update = () => {
+        const headerTop = header.offsetTop; // where header sits in normal flow
+        const shouldPin = window.scrollY >= headerTop;
+  
+        header.classList.toggle("is-pinned", shouldPin);
+  
+        // prevent content jump when header becomes fixed
+        const h = Math.ceil(header.getBoundingClientRect().height);
+        main.style.paddingTop = shouldPin ? `${h}px` : "";
+      };
+  
+      update();
+      window.addEventListener("scroll", update, { passive: true });
+      window.addEventListener("resize", update);
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
     new ThemeManager();
     new MobileNavigation();
     new SmoothScroll();
-    
-    // Make NavigationHighlight available globally for smooth scroll integration
     window.navigationHighlightInstance = new NavigationHighlight();
-    
     new LazyImageLoader();
     new MarkdownLoader();
-    
-    // Apply hover effect to all 'b' letters on initial content
+  
     if (typeof window.applyBHoverEffect === 'function') {
-        window.applyBHoverEffect(document.body);
+      window.applyBHoverEffect(document.body);
     }
-
-    // Initialize party hat explosion feature
+  
     new PartyHatExplosion();
-    
-    // Add loading state management
     document.body.classList.add('loaded');
-    
-    // Console message for developers
-    console.log('🌵 Portfolio site loaded successfully!');
-    console.log('🎉 Click the logo for a party surprise!');
-    console.log('Built with inspiration from astro-theme-cactus');
-});
+  });
+  
 
 // Handle page visibility changes (pause animations when not visible)
 document.addEventListener('visibilitychange', () => {

@@ -1,14 +1,12 @@
 /* Reset and base styles */
 * {
     box-sizing: border-box;
-    transition: opacity 0.2s ease;
 }
 
 html {
     color-scheme: dark;
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
-    transition: opacity 0.2s ease;
 }
 
 /* Dark theme colors (ONLY) */
@@ -24,7 +22,7 @@ html {
     --color-shadow: rgba(0, 0, 0, 0.3);
 }
 
-/* Base typography */
+/* Remove your old body padding-top if you had it */
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     line-height: 1.6;
@@ -32,15 +30,96 @@ body {
     padding: 0;
     background-color: var(--color-global-bg);
     color: var(--color-global-text);
-    padding-top: 8rem; /* Increased to account for fixed header */
-}
+  }
 
-/* Responsive body padding */
-@media (max-width: 640px) {
-    body {
-        padding-top: 5rem; /* Reduced padding on mobile */
-    }
-}
+  #hero {
+    position: relative;
+    background:
+      radial-gradient(
+        1200px 600px at 20% 20%,
+        rgba(236,72,153,0.18),
+        transparent 60%
+      ),
+      radial-gradient(
+        1000px 500px at 80% 30%,
+        rgba(59,130,246,0.18),
+        transparent 55%
+      ),
+      linear-gradient(
+        180deg,
+        oklch(23.64% 0.0045 248),
+        oklch(18% 0.004 248)
+      );
+  }
+  
+
+  #hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        rgba(255,255,255,0.02),
+        rgba(255,255,255,0.02) 1px,
+        transparent 1px,
+        transparent 2px
+      );
+    opacity: 0.08;
+    pointer-events: none;
+  }
+  
+  
+  .hero-inner {
+    position: relative;
+    z-index: 2;
+  }
+    
+  
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+  }
+  
+  .hero-inner {
+    text-align: center;
+    max-width: 48rem;
+    width: 100%;
+  }
+  
+  .hero-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 9999px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1.25rem auto;
+  }
+  
+  .hero-name {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .hero-subtitle {
+    margin: 0.75rem 0 1.75rem 0;
+    opacity: 0.85;
+  }
+  
+  .hero-cta {
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.9;
+  }
+  
+
+  @media (max-width: 640px) {
+    /* body.header-on main { padding-top: 5rem; } */
+  }
+
 
 /* Utility classes matching astro-theme-cactus */
 .bg-global-bg { background-color: var(--color-global-bg); }
@@ -220,21 +299,22 @@ body {
     }
 }
 
-/* Header styles */
-#main-header {
-    position: fixed;
+#main-header{
+    position: sticky;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 57.6rem; /* Same as max-w-3xl */
+    z-index: 1000;
+  
+    margin: 0 auto;
+    max-width: 57.6rem;
     width: 100%;
+  
     background-color: color-mix(in srgb, var(--color-global-bg) 95%, transparent);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
-    z-index: 100;
-    padding: 1rem 1rem 0.5rem 1rem; /* Match main content px-4 */
-}
+  
+    padding: 1rem 1rem 0.5rem 1rem;
+  }
 
 /* Header grid layout */
 .header-grid {
@@ -915,10 +995,22 @@ button:focus-visible {
     transition: opacity 0.2s ease;
 }
 
-.tag-safety {
-    background-color: color-mix(in srgb, #ef4444 15%, transparent);
-    border-color: #ef4444;
-    color: #ef4444;
+.tag-hri {
+    background-color: color-mix(in srgb, #af67ff 15%, transparent);
+    border-color: #af67ff;
+    color: #af67ff;
+}
+
+.tag-vr{
+    background-color: color-mix(in srgb, #3b82f6  15%, transparent);
+    border-color: #3b82f6;
+    color: #3b82f6;
+}
+
+.tag-userstudy{
+    background-color: color-mix(in srgb, #f6bb3b  15%, transparent);
+    border-color: #f6bb3b;
+    color: #f6bb3b;
 }
 
 .tag-interpretability {
