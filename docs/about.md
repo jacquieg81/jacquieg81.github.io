@@ -23,7 +23,7 @@
 
 
 
-I'm an Accelerated (4+1) masters student at Queen's University, Canada studying Human-Robot Interaction. 
+I'm an Accelerated (4+1) MASc student at Queen's University, Canada studying Human-Robot Interaction. 
 
 While completing my undergrad in Computer Engineering I am starting my Master's research, beginning with using robots to render haptic proxies in Virtual Reality (VR). Over the summer of 2025, I worked as an undergraduate research student to develop VR applications for our Beta system of ETHOS. Specifically I worked on integrating communication with the robot system to create haptics for interpersonal interactions in VR.
 

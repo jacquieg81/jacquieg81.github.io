@@ -1,81 +1,61 @@
-# Education
+# Education and Experience
 
 
 
 <div class="timeline">
-<!-- 
 <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">University of Oxford</span>
-      <span class="timeline-role">DPhil in Machine Learning</span>
-      <span class="timeline-dates">Oct 2024 – <strong class="text-accent">Present</strong></span>
+      <span class="timeline-org">Queen's University</span>
+      <span class="timeline-role">BASc Computer Engineering</span>
+      <span class="timeline-dates">Sept 2022 – <strong class="text-accent">Present</strong></span>
     </div>
-    <div class="timeline-desc">Exploring the scaling laws of AI Safety.</div>
+    <div class="timeline-meta">Kingston, ON</div>
+    <div class="timeline-desc">Completing an undergraduate degree in Computer Engineering while working towards an Accelerated MASc in Robotics Engineering.</div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">Spotify</span>
-      <span class="timeline-role">Research Scientist Intern</span>
-      <span class="timeline-dates">Jun 2025 – Aug 2025</span>
+      <span class="timeline-org">Ingenuity Labs at Queen's University</span>
+      <span class="timeline-role">Student Researcher</span>
+      <span class="timeline-dates">May 2025 – <strong class="text-accent">Present</strong></span>
     </div>
-    <div class="timeline-meta">London, UK • Hybrid</div>
-    <div class="timeline-desc">Investigating mechanistic interpretability for long-context reasoning in LLMs.</div>
+    <div class="timeline-meta">Kingston, ON • Onsite</div>
+    <div class="timeline-desc">Researching Human-Robotic Interaction (HRI) and its applications to Virtual Reality (VR).</div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">UK AI Security Institute (AISI)</span>
-      <span class="timeline-role">Bounty Programme</span>
-      <span class="timeline-dates">Feb 2025 – Mar 2025</span>
+      <span class="timeline-org">Queen's University Athletics</span>
+      <span class="timeline-role">Tutor Coordinator</span>
+      <span class="timeline-dates">Sept 2024 – Apr 2025</span>
     </div>
-    <div class="timeline-meta">Remote • Contract</div>
-    <div class="timeline-desc">Investigating the automated design of agentic systems for cybersecurity benchmarks.</div>
+    <div class="timeline-meta">Hybrid • Contract</div>
+    <div class="timeline-desc">Worked alongside one other coordinator to provide Student-Athletes access to peer-tutoring services.</div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">Convergence</span>
-      <span class="timeline-role">Founding Member of Research Staff</span>
-      <span class="timeline-dates">Jul 2024 – Sep 2024</span>
+      <span class="timeline-org">Queen's University Dept. of MME</span>
+      <span class="timeline-role">Undergraduate Research Student</span>
+      <span class="timeline-dates">Jul 2024 – Dec 2024</span>
     </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Exploring automation and collaboration with web agents. <span class="text-accent">Acquired by Salesforce</span>.</div>
+    <div class="timeline-meta">Kington, ON • On-site</div>
+    <div class="timeline-desc">Worked with Dr. Vahid Fallah in the AZAR Lab. Developed software solutions for a Metal 3D Printer.</div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">Pynea</span>
-      <span class="timeline-role">Principal Machine Learning Engineer</span>
-      <span class="timeline-dates">Jan 2024 – Jul 2024</span>
+      <span class="timeline-org">Branksome Hall</span>
+      <span class="timeline-role">International Baccalaureate Diploma</span>
+      <span class="timeline-dates">Sept 2018-May 2022</span>
     </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Building recommender and search systems. Exploring geometric deep learning.</div>
+    <div class="timeline-meta">Toronto, ON</div>
+    <div class="timeline-desc">Higher Level Physics, Chemistry, and Geography. Standard Level Mathematics (Analysis and Approaches), English (Language and Literature), and Spanish (Ab Initio).</div>
   </div>
 
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">Artera</span>
-      <span class="timeline-role">Lead Software Engineer (Founding Team)</span>
-      <span class="timeline-dates">Sep 2022 – Dec 2023</span>
-    </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Leading the engineering team and developing foundational machine learning and computer vision algorithms.</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">University of Oxford</span>
-      <span class="timeline-role">Master of Engineering</span>
-      <span class="timeline-dates">Sep 2018 – Sep 2022</span>
-    </div>
-    <div class="timeline-meta">First Class • Academic Scholarship</div>
-  </div>
-</div> -->
+</div>
