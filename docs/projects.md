@@ -4,7 +4,7 @@
 
 <div class="publication-card">
   <div class="publication-image">
-    <img src="assets/AgentBreederDiagramJPG.jpg" alt="AgentBreeder publication">
+    <img src="assets/ETHOSpng.png" alt="ETHOS publication">
   </div>
 
   <div class="publication-content">
@@ -39,7 +39,7 @@
 
 <div class="publication-card">
   <div class="publication-image">
-    <img src="assets/AgentBreederDiagramJPG.jpg" alt="AgentBreeder publication">
+    <img src="assets/SPIpng.png" alt="Social-Physical Interactions publication">
   </div>
 
   <div class="publication-content">
